@@ -1,0 +1,13 @@
+﻿  Source.cpp
+d:\work\shoppingapp\resource.h(46): warning C4005: 'IDD_DETAILS': macro redefinition
+  d:\work\shoppingapp\resource.h(19): note: see previous definition of 'IDD_DETAILS'
+d:\work\shoppingapp\source.cpp(80): warning C4101: 'hFont': unreferenced local variable
+d:\work\shoppingapp\source.cpp(79): warning C4101: 'hdcstat': unreferenced local variable
+d:\work\shoppingapp\source.cpp(731): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdlib.h(1019): note: see declaration of 'wcstombs'
+d:\work\shoppingapp\source.cpp(740): warning C4477: 'fprintf_s' : format string '%20S' requires an argument of type 'wchar_t *', but variadic argument 5 has type 'CHAR *'
+  d:\work\shoppingapp\source.cpp(740): note: consider using '%hS' in the format string
+  d:\work\shoppingapp\source.cpp(740): note: consider using '%TS' in the format string
+d:\work\shoppingapp\source.cpp(715): warning C4101: 'name': unreferenced local variable
+d:\work\shoppingapp\source.cpp(929): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': cannot convert argument 2 from 'CHAR [20]' to 'LPCWSTR'
+  d:\work\shoppingapp\source.cpp(929): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
